@@ -115,7 +115,7 @@ void login_handler(struct evhttp_request *req, void *arg) {
        ====给服务端的协议====
         http://ip:port/login [json_data]
         {
-            username: "ldw",
+            username: "gailun",
             password: "123123",
             driver:   "yes"
         }
