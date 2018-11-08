@@ -79,7 +79,7 @@ int main()
 
     //(2) 向web服务器 发送http请求 其中post数据 json字符串
     //1 设置curl url
-    curl_easy_setopt(curl, CURLOPT_URL, "http://172.16.1.96:7777/login");
+    curl_easy_setopt(curl, CURLOPT_URL, "https://172.16.1.96:8080/login");
 
     //客户端忽略CA证书认证 用于https跳过证书认证
     curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, false);
